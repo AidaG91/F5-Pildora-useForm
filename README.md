@@ -1,16 +1,81 @@
-# React + Vite
+# F5 Píldora — useForm (React Hook Form)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositorio contiene el material de la píldora formativa sobre **React Hook Form** y su hook principal, **useForm**, presentada en Factoría F5.
 
-Currently, two official plugins are available:
+Incluye:
+- Explicación teórica sobre qué es `useForm`
+- Comparación con formularios en Vanilla JS
+- Ventajas de usar React Hook Form
+- Proyecto práctico con formulario accesible
+- Live‑coding realizado durante la sesión
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Instalación del proyecto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Clona el repositorio:
 
-## Expanding the ESLint configuration
+```bash
+git clone https://github.com/AidaG91/F5-Pildora-useForm.git
+cd F5-Pildora-useForm
+```
+Instala dependencias:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+```
+Inicia el entorno de desarrollo:
+```bash
+npm run dev
+```
+
+## 🧩 Tecnologías utilizadas
+- React + Vite
+- React Hook Form (useForm)
+- HTML accesible (WCAG 2.1 AA)
+- CSS minimalista y responsive
+
+## 📝 Código principal del formulario
+El formulario accesible está en:
+
+```
+src/ContactForm.jsx
+```
+
+Incluye:
+
+- `register` para conectar inputs
+- Validación declarativa
+- Errores accesibles con `aria-invalid`, `aria-describedby` y `role="alert"`
+
+## 🎤 Presentación
+Aquí irá el enlace a la presentación cuando esté disponible:
+
+👉 Presentación: [pendiente de añadir]  
+👉 **Archivo .pptx**: [si se sube al repo, enlazar aquí]
+
+## 📂 Estructura del proyecto
+```
+F5-Pildora-useForm/
+│
+├── src/
+│   ├── App.jsx
+│   ├── ContactForm.jsx
+│   ├── App.css
+│   └── main.jsx
+│
+├── public/
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## 🤝 Créditos
+Píldora creada por Aïda G.  
+Factoría F5 — FemCoders
+
+## 📚 Recursos recomendados
+- [Documentación oficial de React Hook Form](https://react-hook-form.com/?utm_source=copilot.com)
+- [Guía de accesibilidad WCAG 2.1](https://www.w3.org/TR/WCAG21/?utm_source=copilot.com)
+- [React Docs — Hooks](https://react.dev/reference/react?utm_source=copilot.com)
