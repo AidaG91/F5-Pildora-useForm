@@ -1,0 +1,83 @@
+/* Contenedor general */
+form {
+  max-width: 420px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background: #fafafa;
+  border: 1px solid #ddd;
+  font-family: system-ui, sans-serif;
+}
+
+/* Título */
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Cada campo */
+form > div {
+  margin-bottom: 1rem;
+}
+
+/* Labels */
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+/* Inputs, selects y textarea */
+input,
+select,
+textarea {
+  padding: 0.55rem 0.7rem;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  font-size: 1rem;
+  background: white;
+}
+
+/* Focus visible accesible */
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 3px solid #4c9ffe;
+  outline-offset: 2px;
+  border-color: #4c9ffe;
+}
+
+/* Errores accesibles */
+[aria-invalid="true"] {
+  border-color: #d93025;
+  background: #fff6f6;
+}
+
+p[role="alert"] {
+  color: #d93025;
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+}
+
+/* Botón */
+button {
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background: #4c9ffe;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1f7ae0;
+}
+
+button:focus {
+  outline: 3px solid #1f7ae0;
+  outline-offset: 2px;
+}
