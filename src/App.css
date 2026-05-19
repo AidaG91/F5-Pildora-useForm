@@ -81,3 +81,14 @@ button:focus {
   outline: 3px solid #1f7ae0;
   outline-offset: 2px;
 }
+
+.error-msg {
+  color: red;
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.input-error {
+  border: 1px solid #ef4444 !important;
+  background-color: #fef2f2;
+}
