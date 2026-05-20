@@ -1,6 +1,6 @@
 import BasicForm from "./components/BasicForm";
 import ComplexForm from "./components/ComplexForm";
-import Test from "./components/Test"
+import Test from "./components/Test";
 import "./App.css";
 
 function App() {
@@ -10,8 +10,7 @@ function App() {
 
       <div className="grid-formularios">
         <BasicForm />
-        {/* <Test /> */}
-        {/* <ComplexForm /> */}
+        <ComplexForm />
       </div>
     </div>
   );
