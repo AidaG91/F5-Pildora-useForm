@@ -72,7 +72,7 @@ Un ejemplo "del mundo real" pensado para que lo explores a tu ritmo después de 
 ## 🎤 Presentación
 Aquí encontrarás el material de apoyo visual utilizado durante la píldora formativa:
 
-👉 **Diapositivas de la presentación:** [Ver el PDF de la presentación](./public/Pildora_useForm.pdf)
+👉 **Diapositivas de la presentación:** [Ver el PDF de la presentación](https://1drv.ms/b/c/821ca9991a95443d/IQAAu6WcahorRa4SB7QB5JYhAb7EYIwsNmV7ldpPiSqaZvI?e=xjiSvA)
 
 
 ## 🤝 Créditos
