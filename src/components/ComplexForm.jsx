@@ -23,6 +23,7 @@ export default function ComplexForm() {
             required: "El nombre es obligatorio",
             minLength: { value: 2, message: "Mínimo 2 caracteres" },
           })}
+          className={errors.name ? "input-error" : ""}
           aria-invalid={errors.name ? "true" : "false"}
           aria-describedby={errors.name ? "comp-name-error" : null}
         />
@@ -42,6 +43,7 @@ export default function ComplexForm() {
               message: "Introduce un email válido",
             },
           })}
+          className={errors.email ? "input-error" : ""}
           aria-invalid={errors.email ? "true" : "false"}
           aria-describedby={errors.email ? "comp-email-error" : null}
         />
@@ -54,6 +56,7 @@ export default function ComplexForm() {
         <select
           id="comp-reason"
           {...register("reason", { required: "Selecciona un motivo" })}
+          className={errors.reason ? "input-error" : ""}
           aria-invalid={errors.reason ? "true" : "false"}
           aria-describedby={errors.reason ? "comp-reason-error" : null}
         >
@@ -74,6 +77,7 @@ export default function ComplexForm() {
             required: "El mensaje es obligatorio",
             minLength: { value: 10, message: "Mínimo 10 caracteres" },
           })}
+          className={errors.message ? "input-error" : ""}
           aria-invalid={errors.message ? "true" : "false"}
           aria-describedby={errors.message ? "comp-message-error" : null}
         />
