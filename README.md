@@ -76,8 +76,7 @@ Aquí encontrarás el material de apoyo visual utilizado durante la píldora for
 
 
 ## 🤝 Créditos
-Píldora diseñada e impartida por Aïda G. 
-**Factoría F5 — FemCoders** 💜
+Píldora diseñada e impartida por Aïda G. 💜
 
 ## 📚 Recursos recomendados
 - [Documentación oficial de React Hook Form](https://react-hook-form.com/)
