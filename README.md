@@ -15,7 +15,9 @@ El objetivo de esta sesión es aprender a gestionar formularios en React de form
 git clone https://github.com/AidaG91/F5-Pildora-useForm.git
 
 cd F5-Pildora-useForm
+```
 
+```bash
 npm install
 ```
 2. Instala la librería de React Hook Form (por si creas el proyecto desde cero):
@@ -40,6 +42,7 @@ F5-Pildora-useForm/
 │   │   └── ComplexForm.jsx     <-- Ejemplo avanzado listo para consultar (incluye selects, textareas y accesibilidad).
 │   ├── App.css                 <-- Estilos de la app y clases de error dinámicas.
 │   ├── App.jsx                 <-- Contenedor principal que renderiza ambos formularios en paralelo.
+│   ├── index.css
 │   └── main.jsx
 └── README.md
 ```
@@ -69,8 +72,7 @@ Un ejemplo "del mundo real" pensado para que lo explores a tu ritmo después de 
 ## 🎤 Presentación
 Aquí encontrarás el material de apoyo visual utilizado durante la píldora formativa:
 
-👉 Presentación: [pendiente de añadir]  
-👉 **Archivo .pptx**: [Ver el PDF de la presentación](./public/Píldora_useForm.pdf)
+👉 **Diapositivas de la presentación:** [Ver el PDF de la presentación](./public/Pildora_useForm.pdf)
 
 
 ## 🤝 Créditos
@@ -79,5 +81,5 @@ Píldora diseñada e impartida por Aïda G.
 
 ## 📚 Recursos recomendados
 - [Documentación oficial de React Hook Form](https://react-hook-form.com/)
-- [Guía de accesibilidad WCAG 2.1](https://www.w3.org/TR/WCAG21/?utm_source=copilot.com)
+- [Guía de accesibilidad WCAG 2.1](https://www.w3.org/TR/WCAG21/)
 - [React Docs — Hooks](https://react.dev/reference/react)

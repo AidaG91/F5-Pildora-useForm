@@ -11,7 +11,7 @@ export default function ComplexForm() {
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} noValidate className="form-box complex">
-      <h2>Formulario Avanzado (Ejemplo Extra)</h2>
+      <h2>Complex Form (Ejemplo Extra)</h2>
 
       {/* NOMBRE */}
       <div>
